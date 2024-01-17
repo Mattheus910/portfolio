@@ -1,0 +1,22 @@
+.project {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.project div {
+    width: 60%;
+    margin: 2rem auto;
+}
+
+.project div p {
+    margin: 1rem;
+}
+
+.project h2 {
+    margin: 3rem;
+}
+
+.project img {
+    width: 100%;
+}

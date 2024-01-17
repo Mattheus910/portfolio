@@ -1,6 +1,13 @@
 .icons {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    text-align: center;
+}
+
+.icons div {
+    display: flex;
     justify-content: center;
     gap: 1rem;
 }

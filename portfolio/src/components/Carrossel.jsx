@@ -29,20 +29,25 @@ const Carrossel = () => {
       <h2>Projetos</h2>
       <Slider {...settings}>
         <div className='foto'>
-          <img src="./public/academia.png" alt="" />
-          <button><a href="https://mattheus910.github.io/academia/" target="_blank" rel="noopener noreferrer">ir para</a></button>
+          <img src="./public/fam.jpg" alt="" />
         </div>
         <div className='foto'>
-          <img src="./public/preview.png" alt="" />
-          <button><a href="https://mattheus910.github.io/bitsos/#" target="_blank" rel="noopener noreferrer">ir para</a></button>
+          <img src="./public/java.png" alt="" />
         </div>
         <div className='foto'>
-        <img src="./public/print.png" alt="" />
-        <button><a href="https://mattheus910.github.io/lista-de-compra/" target="_blank" rel="noopener noreferrer">ir para</a></button>
+          <img src="./public/escotec.jpg" alt="" />
         </div>
         <div className='foto'>
-        <img src="./public/tela.png" alt="" />
-        <button><a href="https://mattheus910.github.io/robotica/" target="_blank" rel="noopener noreferrer">ir para</a></button>
+        <img src="./public/cibernetica.jpg" alt="" />
+        </div>
+        <div className='foto'>
+        <img src="./public/cybersecurity.jpg" alt="" />
+        </div>
+        <div className='foto'>
+        <img src="./public/logica.jpg" alt="" />
+        </div>
+        <div className='foto'>
+        <img src="./public/rocketseat.png" alt="" />
         </div>
       </Slider>
     </section>

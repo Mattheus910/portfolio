@@ -7,6 +7,7 @@ import Icons from './components/Icons'
 import Carrossel from './components/Carrossel'
 import Icons2 from './components/Icons2'
 import Footer from './components/Footer'
+import Project from './components/Project'
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
       <Apresentation />
       <About />
       <Icons />
+      <Project />
       <Carrossel />
       <Icons2 />
       <Footer />

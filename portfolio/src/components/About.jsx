@@ -3,10 +3,19 @@ import "./About.css";
 const About = () => {
   return (
     <section className='about' id="about">
-        <div>
-            <h2>Sobre mim</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim aliquid distinctio ab perspiciatis in facere voluptatum cupiditate. Deleniti quidem consequatur, repellat voluptas, asperiores repudiandae ad ratione maiores et architecto accusantium. Lorem ipsum dolor sit, amet consectetur adipisicing elit. In ab reprehenderit iure perferendis vitae accusamus, officia laboriosam deleniti ducimus at consequuntur, tenetur hic nihil doloremque distinctio maiores magnam molestias placeat!</p>
-        </div>
+      <div>
+        <h2>Sobre mim</h2>
+        <p>
+          Um entusiasta de tecnologia e estudante de Análise e Desenvolvimento de Sistemas na Unipiaget. Dedico meu tempo ao desenvolvimento web, participando de cursos práticos e bootcamps.
+
+          Motivação: Transformar ideias em código, criar experiências interativas e contribuir para um mundo mais conectado.
+
+          Projetos: Colaboro em código aberto e trabalho em projetos pessoais para aplicar e expandir meus conhecimentos.
+
+          Além do código, sou apaixonado por [mencionar seus interesses ou hobbies], equilibrando minha vida acadêmica com momentos de descontração.
+
+          Estou aberto a desafios inovadores e oportunidades de colaboração. Vamos construir algo incrível juntos!</p>
+      </div>
     </section>
   )
 }
