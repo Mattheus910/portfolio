@@ -1,0 +1,20 @@
+.apresentation {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    margin: 5rem auto;
+    max-width: 60%;
+}
+
+.apresentation img {
+    width: 300px;
+    border-radius: 5px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 300px;
+}
+
