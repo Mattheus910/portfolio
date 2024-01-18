@@ -1,5 +1,5 @@
 import "./Icons.css";
-import {  FaCss3, FaGit, FaGithub, FaHtml5, FaJava, FaJs, FaReact } from "react-icons/fa";
+import {  FaCss3, FaDatabase, FaGit, FaGithub, FaHtml5, FaJava, FaJs, FaReact } from "react-icons/fa";
 
 const Icons = () => {
   return (
@@ -12,6 +12,7 @@ const Icons = () => {
           <button title="React"><FaReact /></button>
           <button title="Java"><FaJava /></button>
           <button title="Git"><FaGit /></button>
+          <button title="SQL"><FaDatabase /></button>
         </div>
     </section>
   )
