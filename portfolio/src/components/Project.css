@@ -10,7 +10,7 @@
 }
 
 .project div p {
-    margin: 1rem;
+    margin: 2rem 0;
 }
 
 .project h2 {
@@ -19,4 +19,10 @@
 
 .project img {
     width: 100%;
+    border-radius: 10px;
+    transition: 1s;
+}
+
+.project img:hover {
+    scale: 1.05;
 }

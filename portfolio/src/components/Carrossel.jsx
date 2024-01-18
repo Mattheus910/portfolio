@@ -26,7 +26,7 @@ const Carrossel = () => {
 
   return (
     <section className='carrosel' id='projects'>
-      <h2>Projetos</h2>
+      <h2>Certificados</h2>
       <Slider {...settings}>
         <div className='foto'>
           <img src="./public/fam.jpg" alt="" />

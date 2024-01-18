@@ -1,15 +1,35 @@
 import "./Apresentation.css";
+import React from 'react';
+import Typed from 'typed.js';
 
 const Apresentation = () => {
+
+  const el = React.useRef(null);
+
+  React.useEffect(() => {
+    const typed = new Typed(el.current, {
+      strings: ['<i>Hello World!</i> <br> Meu nome é Matheus.'],
+      typeSpeed: 50,
+
+    });
+
+    return () => {
+      typed.destroy();
+    };
+  }, []);
+
   return (
+    
     <section className="apresentation">
-        <div>
-            <img src="./public/desenho.jpg" alt="" />
-        </div>
-        <div className="text">
-            <h1>Olá, eu me chamo Matheus!</h1>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus ducimus suscipit assumenda adipisci illum commodi totam nobis quo? Nostrum esse nesciunt doloremque dolor deleniti fugit similique, explicabo hic voluptate soluta.</p>
-        </div>
+
+      <div>
+        <img src="./public/desenho.jpg" alt="" />
+      </div>
+
+      <div className="text">
+        <span ref={el} />
+      </div>
+    
     </section>
   )
 }

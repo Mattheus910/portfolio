@@ -28,7 +28,6 @@ const Project = () => {
           <p>Descrição: Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde earum hic, est iure ducimus nostrum magni vel cumque vitae dolor atque ex. Nostrum provident ipsam unde voluptates sit, dolore voluptatem.</p>
           <button><a href="">Ir para a pagina</a></button>
         </div>
-
     </section>
   )
 }

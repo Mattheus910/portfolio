@@ -1,11 +1,17 @@
 .header {
     background-color: #1a1a1a;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    padding: 1rem 9rem;
     position: sticky;
     top: 0px;
     z-index: 1;
     opacity: 0.9;
+}
+
+.header h2 {
+    font-size: 2rem;
+    font-weight: bold;
 }
 
 nav {
