@@ -1,57 +1,27 @@
-import Slider from 'react-slick';
-import 'slick-carousel/slick/slick.css';
-import 'slick-carousel/slick/slick-theme.css';
+import { register } from 'swiper/element/bundle';
+
 import "./Carrosel.css";
 
+register();
+
 const Carrossel = () => {
-    const settings = {
-        dots: true,
-        infinite: true,
-        speed: 500,
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        centerMode: true,
-        variableWidth: false,
-        arrows: true,
-        responsive: [
-          {
-            breakpoint: 768,
-            settings: {
-              slidesToShow: 1,
-              variableWidth: false,
-            },
-          },
-        ],
-      };
 
   return (
     <section className='carrosel' id='projects'>
-      <h2>Certificados</h2>
-      <Slider {...settings}>
-        <div className='foto'>
-          <img src="./public/fam.jpg" alt="" />
-        </div>
-        <div className='foto'>
-          <img src="./public/java.png" alt="" />
-        </div>
-        <div className='foto'>
-          <img src="./public/escotec.jpg" alt="" />
-        </div>
-        <div className='foto'>
-        <img src="./public/cibernetica.jpg" alt="" />
-        </div>
-        <div className='foto'>
-        <img src="./public/cybersecurity.jpg" alt="" />
-        </div>
-        <div className='foto'>
-        <img src="./public/logica.jpg" alt="" />
-        </div>
-        <div className='foto'>
-        <img src="./public/rocketseat.png" alt="" />
-        </div>
-      </Slider>
-    </section>
 
+      <h2>Certificados</h2>
+
+      <swiper-container loop="true">
+        <swiper-slide><img src="./public/fam.jpg" alt="" /></swiper-slide>
+        <swiper-slide><img src="./public/java.png" alt="" /></swiper-slide>
+        <swiper-slide><img src="./public/escotec.jpg" alt="" /></swiper-slide>
+        <swiper-slide><img src="./public/cibernetica.jpg" alt="" /></swiper-slide>
+        <swiper-slide><img src="./public/cybersecurity.jpg" alt="" /></swiper-slide>
+        <swiper-slide><img src="./public/logica.jpg" alt="" /></swiper-slide>
+        <swiper-slide><img src="./public/rocketseat.png" alt="" /></swiper-slide>
+      </swiper-container>
+
+    </section>
   );
 };
 
