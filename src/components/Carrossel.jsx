@@ -14,7 +14,6 @@ const Carrossel = () => {
       <swiper-container loop="true">
         <swiper-slide><img src="/fam.jpg" alt="" /></swiper-slide>
         <swiper-slide><img src="/java.png" alt="" /></swiper-slide>
-        <swiper-slide><img src="/escotec.jpg" alt="" /></swiper-slide>
         <swiper-slide><img src="/cibernetica.jpg" alt="" /></swiper-slide>
         <swiper-slide><img src="/cybersecurity.jpg" alt="" /></swiper-slide>
         <swiper-slide><img src="/logica.jpg" alt="" /></swiper-slide>
