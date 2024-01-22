@@ -14,7 +14,7 @@ const Project = () => {
       <div className="all-projects">
 
         <div className="body">
-          <img src="./dist/tela.png" alt="site robotica" />
+          <img src="./tela.png" alt="site robotica" />
           <Accordion defaultActiveKey="1">
             <Accordion.Item eventKey="0">
               <Accordion.Header>Descrição</Accordion.Header>
