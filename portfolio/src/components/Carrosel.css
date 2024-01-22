@@ -1,7 +1,6 @@
 .carrosel {
-    max-width: 60%;
+    max-width: 50%;
     margin: auto;
-    
 }
 
 .carrosel h2 {
@@ -12,8 +11,10 @@
 swiper-container img {
     width: 100%;
     height: 100%;
-    z-index: 0;
 }
+
+
+
 
 
 

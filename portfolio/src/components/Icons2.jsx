@@ -4,7 +4,7 @@ import { MdEmail } from "react-icons/md";
 
 const Icons2 = () => {
   return (
-    <section className="icons2" id="contacts">
+    <section className="icons2" id="link3">
       <h2>Contatos</h2>
 
       <div>
