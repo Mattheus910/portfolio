@@ -14,7 +14,7 @@ const Project = () => {
       <div className="all-projects">
 
         <div className="body">
-          <img src="./tela.png" alt="site robotica" />
+          <img src="/tela.png" alt="site robotica" />
           <Accordion defaultActiveKey="1">
             <Accordion.Item eventKey="0">
               <Accordion.Header>Descrição</Accordion.Header>
@@ -27,7 +27,7 @@ const Project = () => {
         </div>
 
         <div className="body">
-          <img src="./public/academia.png" alt="site de academia" />
+          <img src="/academia.png" alt="site de academia" />
           <Accordion defaultActiveKey="1">
             <Accordion.Item eventKey="0">
               <Accordion.Header>Descrição</Accordion.Header>
@@ -41,7 +41,7 @@ const Project = () => {
 
 
         <div className="body">
-          <img src="./public/bitsos.png" alt="site bitsos" />
+          <img src="/bitsos.png" alt="site bitsos" />
           <Accordion defaultActiveKey="1">
             <Accordion.Item eventKey="0">
               <Accordion.Header>Descrição</Accordion.Header>
@@ -54,7 +54,7 @@ const Project = () => {
         </div>
 
         <div className="body">
-          <img src="./public/print.png" alt="site de lista de compra" />
+          <img src="/print.png" alt="site de lista de compra" />
           <Accordion defaultActiveKey="1">
             <Accordion.Item eventKey="0">
               <Accordion.Header>Descrição</Accordion.Header>
