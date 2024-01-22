@@ -49,4 +49,83 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
+@media screen and (max-width: 768px){
+  .header{
+    background-color: #1a1a1a;
+    padding: 10px;
+  }
+
+  .header h2 {
+    font-size: 1rem;
+  }
+  .header nav {
+    display: none;
+  }
+
+  .dropdown {
+    display: flex;
+  }
+
+  .apresentation {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem auto;
+    text-align: center;
+    max-width: 90%;
+  }
+
+  .texto {
+    font-size: 0.9rem;
+  }
+
+  .img {
+    max-width: 50%;
+    margin: auto;
+  }
+
+  .apresentation img {
+    width: 90%;
+  }
+
+  .text{
+    width: 100%;
+    font-size: 2rem;
+    font-weight: 500;
+  }
+
+  .about {
+    max-width: 90%;
+    text-align: justify;
+  }
+
+  .all-projects {
+    flex-direction: column;
+    width: auto;
+  }
+
+  .all-projects .body {
+    width: auto;
+    padding: 5px;
+  }
+
+  .body img {
+    width: 100%;
+    height: auto;
+  }
+
+  .carrosel {
+    max-width: 100%;
+    padding: 10px;
+  }
+
+  .icons div , .icons2 div {
+    flex-wrap: wrap;
+  }
+
+  .icons button, .icons2 button {
+    padding: 0.5rem 0.5rem;
+  }
+}
+
+
 
