@@ -33,7 +33,7 @@ const Apresentation = () => {
     <section className="apresentation"> 
 
       <div className="img">
-        <img src="./public/desenhoTeste.jpg" alt="" />
+        <img src="./public/desenho.jpg" alt="" />
       </div>
 
       <div className="text">
