@@ -12,14 +12,10 @@
 }
 
 .icons2 svg {
-    font-size: 3rem;
+    font-size: 2.5rem;
 }
 
-.icons2 button {
-    border-radius: 50%;
-    width: 100px;
-    height: 100px;
-}
+
 
 .icons2 a {
     color: white;

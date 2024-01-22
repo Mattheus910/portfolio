@@ -7,7 +7,7 @@ register();
 const Carrossel = () => {
 
   return (
-    <section className='carrosel' id='projects'>
+    <section className='carrosel'>
 
       <h2>Certificados</h2>
 
